@@ -1,0 +1,37 @@
+body{
+    background: url('../img/img1.jpg') no-repeat center center/cover;
+    height: 500px;
+    text-align: center;
+}
+
+input{
+    width: 20rem;
+    height: 1.7rem;
+    border-radius: 5px;
+}
+button{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    background: #1E89D1;
+    border: 1px solid #fff;
+}
+
+button:hover{
+    background: #07619E;
+    color: #fff;
+    cursor: pointer;
+}
+
+.remove{
+    display: none;
+}
+
+footer{
+    margin-top: 350px;
+    margin-bottom: 0;
+    border-top: 2px solid #fff;
+}
